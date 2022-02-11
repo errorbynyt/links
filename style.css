@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;  
+    box-sizing: border-box; 
+
+}
+                body {
+                   background-repeat: no-repeat;
+                     height: 100vh;
+                    background-image: url("./pale.jpg");
+                       background-size: cover;
+      
+      }
+                   
+                    .profile-name {
+                    text-align: center;
+                    padding: 20px;
+                    }
+                    .links {
+                        text-align: center;
+    margin-top: 30px;
+    padding: 6px;
+    border: 1px solid rgb(148, 103, 5);
+    border-width: 2px;
+    width: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #000 2px 2px 7px;
+                    
+                    }
+                    a {
+                    text-decoration: none;
+                    color:rgb(20, 16, 18) ;
+                    transition: color 1s;
+                    }
+                    .bottom-text {
+                    text-align: center;
+                    margin-top: 10px;
+                    font-size: 22px;
+                    font-weight: bold;
+                    }
+                    a:hover {
+                    color:white ;
+                    background:rgb(116, 12, 64) ;
+                    }
+                   .bottom-text
+                   {
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(150, 129, 15);
+                    font-size: 13px;
+                   }   
+                   .container {
+                    display: flex;
+                    justify-content: center;
+                   margin-top: 20px;
+                  }
+                  .container p {
+                    font-size: 2rem;
+                    padding: 0.2rem;
+                    font-weight: bold;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                    overflow: hidden;
+                  }
+                  .container p span.typed-text {
+                    font-weight: normal;
+                    color: #63062d;
+                  }
+                  .container p span.cursor {
+                    display: inline-block;
+                    background-color: #ccc;
+                    margin-left: 0.1rem;
+                    width: 3px;
+                    animation: blink 1s infinite;
+                  }
+                  .container p span.cursor.typing {
+                    animation: none;
+                  }
+                  @keyframes blink {
+                    0%  { background-color: #ccc; }
+                    49% { background-color: #ccc; }
+                    50% { background-color: transparent; }
+                    99% { background-color: transparent; }
+                    100%  { background-color: #ccc; }
+                  }
+                  
